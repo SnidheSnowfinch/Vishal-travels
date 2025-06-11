@@ -408,7 +408,7 @@ nav {
 .faq-contact {
   background:
     linear-gradient(rgba(0, 0, 0, 22%), rgba(0, 0, 0, 0.5)),
-    url('./bootstrap/images/bg-img.jpg') no-repeat center/cover;
+    url('./images/bg-img.jpg') no-repeat center/cover;
   color: white;
 }
 
