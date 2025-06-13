@@ -67,6 +67,13 @@ nav {
   height: 85vh;
   /* overflow: hidden; */
 }
+.top-div {
+  position: relative;
+  display: flex;
+  height: 50vh;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.546);
+  /* overflow: hidden; */
+}
 
 
 /* Left side with background image */
@@ -387,6 +394,7 @@ nav {
 }
 
 .card-price {
+  margin-top: 20px;
   background: white;
   border-radius: 12px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
@@ -537,7 +545,11 @@ select:focus {
   cursor: pointer;
   font-size: 16px;
 }
-
+.d-align{
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
 .end-align {
   align-items: center;
   display: flex;
@@ -864,4 +876,116 @@ footer {
       flex-direction: column;
       gap: 30px;
     }
+  }
+  .contact-banner {
+    background: url('./images/bus-package-bg.jpg') no-repeat center/cover;
+    padding: 80px 20px;
+    text-align: center;
+    color: white;
+    position: relative;
+  }
+
+  .contact-banner::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 0;
+  }
+
+  .contact-banner .content {
+    position: relative;
+    z-index: 1;
+  }
+
+  .contact-banner h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .contact-banner h1 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  .contact-banner .btn {
+    padding: 10px 30px;
+    background: linear-gradient(to right, #EF592E, #F48D24);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  .contact-banner .btn:hover {
+    background: #e65900;
+  }
+
+  .cards-section {
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .location-card {
+    border: none !important;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+  }
+
+  .location-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .location-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .location-card-content {
+    padding: 15px;
+  }
+
+  .location-card-content h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+
+  .location-card-content p {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+  }
+
+  .stars {
+    color: orange;
+    margin-bottom: 10px;
+  }
+
+  .book-btn {
+    display: block;
+    width: 90%;
+    margin: 15px auto;
+    background: linear-gradient(to right, #EF592E, #F48D24);
+    color: white;
+    text-align: center;
+    padding: 8px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .book-btn:hover {
+    background: #e65900;
   }
