@@ -52,7 +52,7 @@
       </div>
     </div>
   </div>
-  <div class="marquee-container margin-top">
+  <div class="marquee-container margin-top-home">
   <div class="marquee">
   <span>🧭 Traveling To Different Destinations And Exploring Unknown Places Is The Most Fantastic Feeling</span>
 

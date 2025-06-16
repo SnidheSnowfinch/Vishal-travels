@@ -18,14 +18,17 @@
         </div>
       </div>
 
-      <!-- Booking / Call Box overlay -->
       <div class="booking-wrapper">
         <div class="booking">
           <div class="call-box">
             <h2>Call Now !</h2>
-            <p>📞 888‑0707‑567</p>
+            <div class="phone-div"> <span class="icon-phone"><i class="bi bi-telephone-fill"></i></span>
+            <div><label for="">call for detail information</label>
+          <h3> 888‑0707‑567</h3></div>
+            </div>
           </div>
           <div class="form-box">
+            <label for="">online booking</label>
             <form>
               <select>
                 <option>select from city</option>

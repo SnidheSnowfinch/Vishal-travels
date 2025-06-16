@@ -16,21 +16,25 @@
 
 <body>
 
-  <!-- Top bar -->
   <div class="topbar">
     <div class="d-flex">
-      <div>📞 +91 0000000000</div>
-      <div>📧 vishaltravels0119@gmail.com</div>
+      <div class="mx-2"><i class="bi bi-telephone-fill"></i> +91 0000000000</div>
+      <div class="mx-2"><i class="bi bi-envelope-fill"></i> vishaltravels0119@gmail.com</div>
     </div>
-    <div>🕐 Open hours: Everyday 8 AM–8 PM</div>
+    <div class="mx-2"><i class="bi bi-clock-fill"></i> Open hours: Everyday 8 AM–8 PM</div>
   </div>
 
-  <!-- Navbar -->
-  <nav>
+  <nav class="navbar navbar-expand-lg" id="navbar">
     <div class="nav-left">
       <img src="bootstrap/images/logo.png" alt="logo" class="logo" />
 
     </div>
+    <div class="nav-toggler" onclick="toggleMenu(this)">
+      <span></span>
+      <span></span>
+      <span></span>
+</div>
+<div class="collapse navbar-collapse" id="navMenu">
     <div class="nav-links">
       <a href="#">Home</a>
       <a href="#">Services</a>
@@ -40,4 +44,6 @@
       <a href="#" class="quote-btn">Get Your Quote</a>
 
     </div>
+    </div>
+
   </nav>

@@ -90,6 +90,10 @@
       const cardWidth = cards[0].offsetWidth + 20; // card width + margin
       slider.style.transform = `translateX(-${currentSlide * cardWidth}px)`;
     }
+    function toggleMenu(toggler) {
+      toggler.classList.toggle('active');
+      document.getElementById('navMenu').classList.toggle('show');
+    }
   </script>
 </body>
 
