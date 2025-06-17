@@ -153,7 +153,10 @@ nav {
   margin: 0;
 }
 
-
+.container-div h6{
+  font-size: 22px;
+  font-weight: 700;
+}
 
 .form-box form {
   display: grid;
@@ -210,6 +213,10 @@ nav {
   .overlay-div .div-text {
     padding: 50px 110px;
     width: 60%;
+  }
+  .content{
+    display: flex;
+    gap: 50px;
   }
   .topbar {
     background: #f26522;
@@ -616,6 +623,14 @@ nav {
   font-weight: 400;
 
 }
+.container-div ul li {
+  color: #939595;
+  font-size: 16px;
+  font-weight: 400;
+
+}
+
+
 
 .align-item {
   display: flex;
@@ -1130,6 +1145,9 @@ footer {
     }
   }
   .contact-banner {
+    display: flex
+    ;
+        justify-content: space-around;
     background: url('./images/bus-package-bg.jpg') no-repeat center/cover;
     padding: 80px 20px;
     text-align: center;
@@ -1147,6 +1165,7 @@ footer {
   }
 
   .contact-banner .content {
+    display: block !important;
     position: relative;
     z-index: 1;
   }
