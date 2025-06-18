@@ -7,8 +7,11 @@
       <img class="img-index" src="bootstrap/images/home-img.jpg" alt="Bus" />
 
       <div class="overlay-div">
-        <div class="div-text">
-          <p>VISHAL TRAVELS</p>
+        <div class="div-text new-div">
+        <div class="title-with-line">
+  <span class="line"></span>
+  <p>VISHAL TRAVELS</p>
+</div>
           <h1>Trusted by thousands of people<br>all across the country</h1>
           <a class="button">Book Now</a>
 
@@ -41,14 +44,14 @@
               <select>
                 <option>number of seat</option>
               </select>
-              <button type="submit">Book A Bus</button>
+              <button class="btn-slide" type="submit">Book A Bus</button>
             </form>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <section class="container-div margin-top">
+  <section class="container-div margin-top fade-in-on-scroll">
     <div class="row">
       <div class="col-lg-6 col-md-6 col-sm-12">
         <div>
@@ -92,7 +95,7 @@
   </section>
   <section>
 
-    <div class="marquee-container">
+    <div class="marquee-container ">
       <div class="marquee">
       <span>🧭 Traveling To Different Destinations And Exploring Unknown Places Is The Most Fantastic Feeling</span>
 
@@ -110,12 +113,13 @@
       </div>
     </div>
   </section>
-  <section class="container-div">
+  <section class="container-div fade-in-on-scroll">
     <section class="pricing-section">
       <h1>Our bus rental price/rate per km</h1>
       <p>Get the best rates for all your vehicle rental needs from Vishal travels</p>
 
-      <div class="pricing-cards">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12">
         <div class="card-price">
           <div class="end-align">
             <h4>Tourer 400</h4><label>Executive</label>
@@ -124,14 +128,15 @@
           <img src="bootstrap/images/bus-img-2.png" alt="Bus Image">
 
           <div class="features">
-            <span>49 seater</span> | <span>200 litres</span> | <span>manual</span>
+            <span class="price-span"><img src="bootstrap/images/seater.png" alt="">49 seater</span> | <span class="price-span"><img src="bootstrap/images/petrol.png" alt="">200 litres</span> | <span class="price-span"><img src="bootstrap/images/manual.png" alt="">manual</span>
           </div>
           <div class="div-inline">
             <div class="price">₹2,500/day</div>
-            <button class="price-btn">Book Now</button>
+            <button class="price-btn btn-slide">Book Now</button>
           </div>
         </div>
-
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
         <div class="card-price">
           <div class="end-align">
             <h4>Tourer 400</h4><label>Executive</label>
@@ -140,13 +145,15 @@
           <img src="bootstrap/images/bus-img-2.png" alt="Bus Image">
 
           <div class="features">
-            <span>49 seater</span> | <span>200 litres</span> | <span>manual</span>
+            <span class="price-span"><img src="bootstrap/images/seater.png" alt="">49 seater</span> | <span class="price-span"><img src="bootstrap/images/petrol.png" alt="">200 litres</span> | <span class="price-span"><img src="bootstrap/images/manual.png" alt="">manual</span>
           </div>
           <div class="div-inline">
             <div class="price">₹2,500/day</div>
-            <button class="price-btn">Book Now</button>
+            <button class="price-btn btn-slide">Book Now</button>
           </div>
         </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
         <div class="card-price">
           <div class="end-align">
             <h4>Tourer 400</h4><label>Executive</label>
@@ -155,13 +162,15 @@
           <img src="bootstrap/images/bus-img-2.png" alt="Bus Image">
 
           <div class="features">
-            <span>49 seater</span> | <span>200 litres</span> | <span>manual</span>
+            <span class="price-span"><img src="bootstrap/images/seater.png" alt="">49 seater</span> | <span class="price-span"><img src="bootstrap/images/petrol.png" alt="">200 litres</span> | <span class="price-span"><img src="bootstrap/images/manual.png" alt="">manual</span>
           </div>
           <div class="div-inline">
             <div class="price">₹2,500/day</div>
-            <button class="price-btn">Book Now</button>
+            <button class="price-btn btn-slide">Book Now</button>
           </div>
         </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
         <div class="card-price">
           <div class="end-align">
             <h4>Tourer 400</h4><label>Executive</label>
@@ -170,19 +179,22 @@
           <img src="bootstrap/images/bus-img-2.png" alt="Bus Image">
 
           <div class="features">
-            <span>49 seater</span> | <span>200 litres</span> | <span>manual</span>
+            <span class="price-span"><img src="bootstrap/images/seater.png" alt="">49 seater</span> | <span class="price-span"><img src="bootstrap/images/petrol.png" alt="">200 litres</span> | <span class="price-span"><img src="bootstrap/images/manual.png" alt="">manual</span>
           </div>
           <div class="div-inline">
             <div class="price">₹2,500/day</div>
-            <button class="price-btn">Book Now</button>
+            <button class="price-btn btn-slide">Book Now</button>
           </div>
         </div>
+        </div>
+
+       
       </div>
     </section>
   </section>
 
   <!-- FAQ + Contact Section -->
-  <section class="faq-contact">
+  <section class="faq-contact fade-in-on-scroll">
     <section class="container-div">
 
       <div class="content">
@@ -211,12 +223,12 @@
           <input type="email" placeholder="Enter Your Email">
           <input type="text" placeholder="Enter Phone Number">
           <textarea rows="4" placeholder="Enter your Message"></textarea>
-          <button>Submit now</button>
+          <button class="btn-slide">Submit now</button>
         </div>
       </div>
     </section>
   </section>
-  <section class="facilities-section">
+  <section class="facilities-section fade-in-on-scroll">
     <div class="facilities-left">
       <img src="bootstrap/images/bus-img-2.png" alt="Bus Image">
     </div>
@@ -247,7 +259,7 @@
       </div>
     </div>
   </section>
-  <section class="container-div">
+  <section class="container-div fade-in-on-scroll">
     <div class="testimonial-section">
       <h1>Customer testimonial</h1> 
       <p>Get the best  from Vishal travels </p>

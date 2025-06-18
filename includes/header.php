@@ -36,12 +36,12 @@
 </div>
 <div class="collapse navbar-collapse" id="navMenu">
     <div class="nav-links">
-      <a href="#">Home</a>
-      <a href="#">Services</a>
-      <a href="#">Our Buses</a>
+      <a href="index.php">Home</a>
+      <a href="bus-packages.php">Services</a>
+      <a href="package.php">Our Buses</a>
       <a href="#">Features</a>
       <a href="#">Blog</a>
-      <a href="#" class="quote-btn">Get Your Quote</a>
+      <a href="#" class="quote-btn btn-slide">Get Your Quote</a>
 
     </div>
     </div>

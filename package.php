@@ -9,7 +9,10 @@
       <div class="div-text">
 
         <h1>Our Package </h1>
-        <p>home>>package</p>
+        <div class="title-line">
+  <span class="line"></span>
+  <p>Home>>package</p>
+</div>
 
       </div>
 
@@ -20,7 +23,7 @@
 </section>
 
 
-<section class="container-div">
+<section class="container-div fade-in-on-scroll">
   <div class="row">
     <div class="col-lg-3 col-md-6 col-sm-12">
       <div class="card-price text-left">

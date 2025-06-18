@@ -2,12 +2,13 @@
 <footer>
   <div class="footer-container">
     <div class="footer-col footer-logo">
+
       <img src="bootstrap/images/logo.png" alt="Logo" />
       <p>Vishal travels boasts about its pocket-friendly and transparent pricing policy. We assure you that with our Pune to Shirdi Bus Services you will have a very memorable trip.</p>
       <div class="footer-contact">
-        <p><i>📍</i> Vishal travels . Flat no 201, abc Building, Guyson Shrusthi Society, Tukai darshan Hadocr, Pune-00000</p>
-        <p><i>📞</i> +91 0000000000</p>
-        <p><i>✉️</i> vishaltravels9119@gmail.com</p>
+        <p><i class="bi bi-geo-alt-fill orange"></i> Vishal travels . Flat no 201, abc Building, Guyson Shrusthi Society, Tukai darshan Hadocr, Pune-00000</p>
+        <p><i class="bi bi-telephone-fill orange"></i> +91 0000000000</p>
+        <p><i class="bi bi-envelope-fill orange"></i> vishaltravels9119@gmail.com</p>
       </div>
       <div class="social-icons">
         <a href="#"><i class="bi bi-facebook"></i></a>
@@ -75,6 +76,24 @@
   </div>
 </footer>
 <script>
+   document.addEventListener("DOMContentLoaded", () => {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      console.log("Observed:", entry.target);
+      if (entry.isIntersecting) {
+        console.log("Showing:", entry.target); 
+        entry.target.classList.add('show');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, {
+    threshold: 0.1
+  });
+
+  document.querySelectorAll('.fade-in-on-scroll').forEach(el => {
+    observer.observe(el);
+  });
+});
     let currentSlide = 0;
     const slider = document.getElementById("testimonialSlider");
     const cards = slider.querySelectorAll(".testimonial-card");
@@ -94,6 +113,7 @@
       toggler.classList.toggle('active');
       document.getElementById('navMenu').classList.toggle('show');
     }
+   
   </script>
 </body>
 

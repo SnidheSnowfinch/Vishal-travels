@@ -19,7 +19,6 @@
         </div>
       </div>
 
-      <!-- Booking / Call Box overlay -->
       <div class="booking-wrapper">
         <div class="booking">
           
@@ -44,8 +43,9 @@
               <input type="date" placeholder="dd‑mm‑yyyy" />
 
              </div>
+             <div class="base-btn ">              <button class="btn-slide" type="submit"><i class="bi bi-search"></i></button>
+             </div>
               
-              <button type="submit"><i class="bi bi-search"></i></button>
             </form>
           </div>
         </div>
@@ -69,11 +69,8 @@
     <span>🧭 Traveling To Different Destinations And Exploring Unknown Places Is The Most Fantastic Feeling</span>
   </div>
 </div>
-  <section class="container-div ">
-  <section>
+  <section class="container-div fade-in-on-scroll ">
 
-
-</section>
     <div class="row">
       <div class="col-lg-6 col-md-6 col-sm-12">
         <div>
@@ -116,7 +113,7 @@
     </div>
   </section>
 
-  <section class="container-div">
+  <section class="container-div fade-in-on-scroll">
     <section class="pricing-section">
       <h1>Our bus rental price/rate per km</h1>
       <p>Get the best rates for all your vehicle rental needs from Vishal travels</p>
@@ -160,25 +157,7 @@
           <button class="price-btn">Book Now</button>
         </div>
       </div>
-      <div class="card-price text-left">
-        
-
-        <img src="bootstrap/images/bus-rental-3.png" alt="Bus Image">
-
-        
-       
-          <h4 class="features-h4">Tourer 400</h4>
-         
-    
-
-     
-        <label class="features-label">Executive</label>
-        <hr class="my-2">
-        <div class="div-inline">
-          <div class="price">₹2,500/day</div>
-          <button class="price-btn">Book Now</button>
-        </div>
-      </div>
+      
 
         <div class="card-price text-left">
         
@@ -204,7 +183,7 @@
   </section>
 
   <!-- FAQ + Contact Section -->
-  <section class="faq-contact-gray">
+  <section class="faq-contact-gray fade-in-on-scroll">
     <section class="container-div">
 
       <div class="content">
@@ -238,7 +217,7 @@
       </div>
     </section>
   </section>
-  <section class="facilities-section">
+  <section class="facilities-section fade-in-on-scroll">
     <div class="facilities-left">
       <img src="bootstrap/images/bus-img-2.png" alt="Bus Image">
     </div>
@@ -269,7 +248,7 @@
       </div>
     </div>
   </section>
-  <section class="container-div">
+  <section class="container-div fade-in-on-scroll">
     <div class="testimonial-section">
       <h1>Customer testimonial</h1> 
       <p>Get the best  from Vishal travels </p>
