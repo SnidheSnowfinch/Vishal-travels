@@ -1,6 +1,5 @@
 <?php include 'includes/header.php' ?>
 
-<!-- Hero Section -->
 <div class="top-div">
 
   <div class="home-img-new bg-white">
@@ -10,9 +9,9 @@
 
         <h1>Our Package </h1>
         <div class="title-line">
-  <span class="line"></span>
-  <p>Home>>package</p>
-</div>
+          <span class="line"></span>
+          <p>Home>>package</p>
+        </div>
 
       </div>
 
@@ -194,9 +193,9 @@
       </div>
     </div>
 
- 
-   
-  </viv>
+
+
+    </div>
 </section>
 
 

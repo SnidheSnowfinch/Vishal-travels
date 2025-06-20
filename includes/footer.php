@@ -76,6 +76,22 @@
   </div>
 </footer>
 <script>
+   function selectTab(mode) {
+    // Update tab UI
+    document.querySelectorAll('.tab').forEach(btn => btn.classList.remove('active'));
+    if (mode === 'onward') {
+      document.querySelector('.tab:nth-child(1)').classList.add('active');
+      document.getElementById('returnDateGroup').style.display = 'none';
+    } else {
+      document.querySelector('.tab:nth-child(2)').classList.add('active');
+      document.getElementById('returnDateGroup').style.display = 'flex';
+    }
+  }
+
+  // Set default state
+  window.onload = () => {
+    selectTab('return'); // 
+  };
    document.addEventListener("DOMContentLoaded", () => {
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
@@ -102,7 +118,6 @@
       const totalSlides = cards.length;
       currentSlide += direction;
 
-      // Clamp the value to stay within range
       if (currentSlide < 0) currentSlide = 0;
       if (currentSlide > totalSlides - 2) currentSlide = totalSlides - 2;
 

@@ -1,6 +1,5 @@
 <?php include 'includes/header.php' ?>
 
-<!-- Hero Section -->
 <div class="top-div">
 
   <div class="home-img-new bg-white">
