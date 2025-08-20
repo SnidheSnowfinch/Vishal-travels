@@ -33,7 +33,7 @@
     </div>
     <div class="col-lg-6 col-md-6 col-sm-12">
       <div>
-        <img class="rental-img" src="bootstrap/images/13-seater.png" alt="" width="100%">
+        <img class="rental-img" src="bootstrap/images/17-seater.png" alt="" width="100%">
       </div>
     </div>
 
@@ -44,7 +44,7 @@
   <div class="row">
     <div class="col-lg-6 col-md-6 col-sm-12">
       <div>
-        <img class="rental-img" src="bootstrap/images/13-seater.png" alt="">
+        <img class="rental-img" src="bootstrap/images/17-seater.png" alt="">
       </div>
     </div>
     <div class="col-lg-6 col-md-6 col-sm-12 image-top">
